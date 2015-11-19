@@ -60,7 +60,7 @@ end
 ###
 # Describes DummyLikee
 ###
-describe DummyLikee do
+describe DummyLikee, type: :model do
   ###
   # It behaves like LikeSystem::Likee
   ###

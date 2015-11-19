@@ -87,7 +87,7 @@ end
 ###
 # Describes DummyLiker
 ###
-describe DummyLiker do
+describe DummyLiker, type: :model do
   ###
   # It behaves like LikeSystem::Liker
   ###

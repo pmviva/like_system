@@ -3,7 +3,7 @@ require 'spec_helper'
 ###
 # Describes LikeSystem::Like
 ###
-describe LikeSystem::Like do
+describe LikeSystem::Like, type: :model do
   ###
   # Let likee be DummyLikee.create
   ###
