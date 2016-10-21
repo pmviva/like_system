@@ -150,9 +150,9 @@ describe LikeSystem::Like, type: :model do
     # Should scope likes by likee type
     ####
     it "should scope likes by likee type" do
-      scope = LikeSystem::Like.where(likee_type: DummyLikee)
+      scope = LikeSystem::Like.where(likee_type: "DummyLikee")
 
-      expect(LikeSystem::Like.scope_by_likee_type(DummyLikee)).to eq(scope)
+      expect(LikeSystem::Like.scope_by_likee_type("DummyLikee")).to eq(scope)
     end
 
     ###
@@ -168,9 +168,9 @@ describe LikeSystem::Like, type: :model do
     # Should scope likes by liker type
     ####
     it "should scope likes by liker type" do
-      scope = LikeSystem::Like.where(liker_type: DummyLiker)
+      scope = LikeSystem::Like.where(liker_type: "DummyLiker")
 
-      expect(LikeSystem::Like.scope_by_liker_type(DummyLiker)).to eq(scope)
+      expect(LikeSystem::Like.scope_by_liker_type("DummyLiker")).to eq(scope)
     end
   end
 end
