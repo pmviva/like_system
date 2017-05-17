@@ -3,7 +3,7 @@
 #
 # This class defines the create dummy likers migration in like system
 ###
-class CreateDummyLikers < ActiveRecord::Migration
+class CreateDummyLikers < ActiveRecord::Migration[5.0]
   ###
   # Changes the database
   ###
