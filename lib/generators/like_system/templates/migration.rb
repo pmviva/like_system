@@ -44,4 +44,3 @@ class CreateLikes < ActiveRecord::Migration[5.0]
     add_index :likes, [:likee_id, :likee_type, :liker_id, :liker_type], name: "likes_likee_liker_idx", unique: true
   end
 end
-

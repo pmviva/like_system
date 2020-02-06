@@ -43,4 +43,3 @@ class LikeSystemGenerator < Rails::Generators::Base
     migration_template 'migration.rb', 'db/migrate/create_likes.rb'
   end
 end
-

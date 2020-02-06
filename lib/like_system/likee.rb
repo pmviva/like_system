@@ -55,4 +55,3 @@ module LikeSystem
     end
   end
 end
-

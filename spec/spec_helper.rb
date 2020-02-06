@@ -119,4 +119,3 @@ class DummyLiker < ActiveRecord::Base
   # Acts as liker
   act_as_liker
 end
-

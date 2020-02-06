@@ -42,4 +42,3 @@ module LikeSystem
 end
 
 ActiveRecord::Base.extend LikeSystem
-

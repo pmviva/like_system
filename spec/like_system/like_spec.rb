@@ -174,4 +174,3 @@ describe LikeSystem::Like, type: :model do
     end
   end
 end
-

@@ -66,4 +66,3 @@ describe DummyLikee, type: :model do
   ###
   it_behaves_like LikeSystem::Likee
 end
-

@@ -79,7 +79,7 @@ shared_examples_for LikeSystem::Liker do
     it "should scope likees filtered by likee type" do
       scope = LikeSystem::Like.scope_by_liker(liker).scope_by_likee_type(DummyLikee)
 
-      expect(liker.likees_by(DummyLikee)).to eq(scope)      
+      expect(liker.likees_by(DummyLikee)).to eq(scope)
     end
   end
 end
@@ -93,4 +93,3 @@ describe DummyLiker, type: :model do
   ###
   it_behaves_like LikeSystem::Liker
 end
-
