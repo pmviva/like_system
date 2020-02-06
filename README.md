@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/pmviva/like_system.png?branch=master)](https://travis-ci.org/pmviva/like_system)
 [![Gem Version](https://badge.fury.io/rb/like_system.svg)](http://badge.fury.io/rb/like_system)
-[![Dependency Status](https://gemnasium.com/pmviva/like_system.svg)](https://gemnasium.com/pmviva/like_system)
 [![Code Climate](https://codeclimate.com/github/pmviva/like_system/badges/gpa.svg)](https://codeclimate.com/github/pmviva/like_system)
 
 An active record like system developed using ruby on rails applying domain driven design and test driven development principles.
